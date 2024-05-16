@@ -8,10 +8,18 @@ const PageExpertTech = () => {
                     <h2 className="text-5xl text-cyan-700">Expertos tech: Mentores en tu aprendizaje</h2>
                 </div>
                 
-               <div>
+               <div className="flex flex-row">
                     <CardExpert 
                         index={0}
-                        imaProfile={"https://media.licdn.com/dms/image/D4E03AQFHEm_-2wsdUw/profile-displayphoto-shrink_800_800/0/1698252034146?e=1721260800&v=beta&t=A7rQ_onHmw10LjZaELeFz5Uxw4upvC47SDS5pYXFGdw"} 
+                        imaProfile={"https://cdn-icons-png.flaticon.com/512/3135/3135768.png"} 
+                        name={"JEAN PIERRE MANDUJANO"} 
+                        position={"Software Engineer | Engineering Manager | CTO"} 
+                        detail={"Founder & CTO de Deep Pit Technology Manager de Ingeniería en Scotiabank Tech Lead en BCP. Ingeniero de Software Senior en startups como Crehana y Fandango."} 
+                        imgLogo={"https://deepskill.space/img/deepskill-logo.png"}
+                    />
+                     <CardExpert 
+                        index={1}
+                        imaProfile={"https://cdn-icons-png.flaticon.com/512/3135/3135768.png"} 
                         name={"JEAN PIERRE MANDUJANO"} 
                         position={"Software Engineer | Engineering Manager | CTO"} 
                         detail={"Founder & CTO de Deep Pit Technology Manager de Ingeniería en Scotiabank Tech Lead en BCP. Ingeniero de Software Senior en startups como Crehana y Fandango."} 

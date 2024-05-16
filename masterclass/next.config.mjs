@@ -6,8 +6,12 @@ const nextConfig = {
       hostname: 'media.licdn.com',
       port: '',
       pathname: '/**',
-    }],
-    domains: ["deepskill.space"],
+    },
+    {
+      protocol: 'https',
+    }
+  ],
+    domains: ["deepskill.space", "media.licdn.com"],
   }
 };
 
