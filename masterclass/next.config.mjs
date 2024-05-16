@@ -3,15 +3,17 @@ const nextConfig = {
   images: {
     remotePatterns: [{
       protocol: 'https',
-      hostname: 'media.licdn.com',
+      hostname: 'cdn-icons-png.flaticon.com',
       port: '',
-      pathname: '/**',
+      pathname: '/**/**',
     },
     {
       protocol: 'https',
+      hostname: 'deepskill.space',
+      port: '',
+      pathname: '/**',
     }
-  ],
-    domains: ["deepskill.space", "media.licdn.com"],
+  ]
   }
 };
 
